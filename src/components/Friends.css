@@ -1,0 +1,55 @@
+.wishsss{
+    
+    border-radius: 5px;
+    text-align-last: center;
+    
+}
+.wish-button{
+    background: #D62828;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.wish-button:hover{
+    transform: scale(1.1);
+}
+.title-mode{
+    position: relative;
+}
+.title-mode::before{
+    position: absolute;
+    display: block;
+    content: '';
+    background: #fbfbff;
+    width: 130px;
+    height: 2px;
+    right:120px;
+    top:20px;
+}
+.title-mode::after{
+    position: absolute;
+    display: block;
+    content: '';
+    background: #fbfbff;
+    width: 130px;
+    height: 2px;
+    left:120px;
+    top:20px;
+}
+.wish-block{
+    transition: .5s;
+    width: 700px;
+    height: 250px;
+}
+.main-wish-block{
+    width: 700px;
+    text-align:center;
+    flex-direction: column;
+    display: flex;
+    height: 200px;
+}

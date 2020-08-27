@@ -1,0 +1,19 @@
+.contact-block{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.link{
+    width: 30px; 
+    height: 30px;
+    cursor: pointer;
+    transition: .4s;
+    padding-top: 20px;
+}
+.link:hover{
+    transform: translateY(-15px) scale(1.1);
+}
+.main-info-block{
+    width: 400px;
+    height: 100px;
+}
